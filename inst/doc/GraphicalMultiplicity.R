@@ -1,4 +1,4 @@
-## ---- include=FALSE-----------------------------------------------------------
+## ----include=FALSE------------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = FALSE,
   comment = "#>",
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
   out.width = "80%"
 )
 
-## ---- message=FALSE, warning=FALSE--------------------------------------------
+## ----message=FALSE, warning=FALSE---------------------------------------------
 ### THERE SHOULD BE NO NEED TO MODIFY THIS CODE SECTION
 # Prefer fixed notation
 old <- options(scipen = 999)
@@ -28,7 +28,7 @@ library(ggplot2) # For plotting
 library(gsDesign) # Group sequential design capabilities
 library(gMCPLite) # Multiplicity evaluation
 
-## ---- warning=FALSE, message=FALSE--------------------------------------------
+## ----warning=FALSE, message=FALSE---------------------------------------------
 ### THIS CODE NEEDS TO BE MODIFIED FOR YOUR STUDY
 # If needed, see help file for gMCPLite::hGraph() for explanation of parameters below
 # Hypothesis names
@@ -64,7 +64,7 @@ g <- gMCPLite::hGraph(6,
 ) 
 print(g)
 
-## ---- results='asis'----------------------------------------------------------
+## ----results='asis'-----------------------------------------------------------
 osmedian <- 12 # Median control survival
 # Derive group sequential design for OS in the targeted subgroup
 ossub <- gsDesign::gsSurv(
@@ -101,7 +101,7 @@ tab %>%
     locations = cells_body(columns = "Value", rows = c(3, 8, 13))
   )
 
-## ---- results = 'asis'--------------------------------------------------------
+## ----results = 'asis'---------------------------------------------------------
 hr <- .75
 beta <- .14
 os <- gsDesign::gsSurv(
@@ -124,7 +124,7 @@ tab %>%
 ## -----------------------------------------------------------------------------
 plot(os, plottype = "HR", xlab = "Events")
 
-## ---- results='asis'----------------------------------------------------------
+## ----results='asis'-----------------------------------------------------------
 hr <- .65
 beta <- .149
 pfssub <- gsDesign::gsSurv(

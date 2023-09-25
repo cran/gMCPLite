@@ -1,13 +1,13 @@
 Package: gMCPLite
 Title: Lightweight Graph Based Multiple Comparison Procedures
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(
-    person("Yalin", "Zhu", email = "yalin.zhu@merck.com", role = c("aut", "cre"),
+    person("Yalin", "Zhu", email = "yalin.zhu@outlook.com", role = "aut",
            comment = c(ORCID = "0000-0003-3830-8660")),
     person("Yilong", "Zhang", email = "elong0527@gmail.com", role = "aut"),
     person("Xuan", "Deng", email = "xuan.deng@merck.com", role = "aut"),
     person("Keaven", "Anderson", email = "keaven_anderson@merck.com", role = "aut"),
-    person("Nan", "Xiao", email = "nan.xiao1@merck.com", role = "aut",
+    person("Nan", "Xiao", email = "nan.xiao1@merck.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-0250-5673")),
     person("Kornelius", "Rohmeyer", email = "rohmeyer@small-projects.de", role = "ctb",
            comment = "gMCP author"),
@@ -38,18 +38,18 @@ Imports: ggplot2, graphics, grDevices, grid, MASS, methods, mvtnorm,
 Suggests: covr, dplyr, gridExtra, gsDesign, gt, kableExtra, knitr,
         multcomp, ragg, rmarkdown, scales, testthat (>= 3.0.0), tibble
 Config/testthat/edition: 3
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2022-08-29 19:51:08 UTC; nanx
-Author: Yalin Zhu [aut, cre] (<https://orcid.org/0000-0003-3830-8660>),
+Packaged: 2023-09-25 15:57:04 UTC; xiaonan4
+Author: Yalin Zhu [aut] (<https://orcid.org/0000-0003-3830-8660>),
   Yilong Zhang [aut],
   Xuan Deng [aut],
   Keaven Anderson [aut],
-  Nan Xiao [aut] (<https://orcid.org/0000-0002-0250-5673>),
+  Nan Xiao [aut, cre] (<https://orcid.org/0000-0002-0250-5673>),
   Kornelius Rohmeyer [ctb] (gMCP author),
   Florian Klinglmueller [ctb] (gMCP author),
   gMCP project contributors [cph] (gMCP package),
   Merck & Co., Inc., Rahway, NJ, USA and its affiliates [cph]
-Maintainer: Yalin Zhu <yalin.zhu@merck.com>
+Maintainer: Nan Xiao <nan.xiao1@merck.com>
 Repository: CRAN
-Date/Publication: 2022-08-30 15:10:02 UTC
+Date/Publication: 2023-09-25 18:30:02 UTC

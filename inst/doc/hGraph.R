@@ -1,4 +1,4 @@
-## ---- include=FALSE-----------------------------------------------------------
+## ----include=FALSE------------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -11,12 +11,12 @@ knitr::opts_chunk$set(
   out.width = "80%"
 )
 
-## ---- echo=FALSE, message=FALSE, warning=FALSE--------------------------------
+## ----echo=FALSE, message=FALSE, warning=FALSE---------------------------------
 library(gMCPLite)
 library(dplyr)
 library(gridExtra)
 
-## ---- message=FALSE-----------------------------------------------------------
+## ----message=FALSE------------------------------------------------------------
 hGraph()
 
 ## -----------------------------------------------------------------------------
@@ -27,7 +27,7 @@ hGraph(
   wchar = "w" # Character before weights
 )
 
-## ---- message=FALSE, fig.asp=0.5----------------------------------------------
+## ----message=FALSE, fig.asp=0.5-----------------------------------------------
 grid.arrange(
   # Left graph in figure
   hGraph(
@@ -51,7 +51,7 @@ grid.arrange(
   nrow = 1
 )
 
-## ---- fig.width=9, fig.asp=0.5------------------------------------------------
+## ----fig.width=9, fig.asp=0.5-------------------------------------------------
 grid.arrange(
   # Left graph in figure
   hGraph(
