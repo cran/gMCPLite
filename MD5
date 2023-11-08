@@ -1,6 +1,6 @@
-f5a69e44d15f73700621ff3998019bf1 *DESCRIPTION
+cda90d61a34b5a0182ec7fe32751013f *DESCRIPTION
 c4843cc17a3965c43167329e889f9aef *NAMESPACE
-f2c36ff6c12e930d24de3f8c524cac12 *NEWS.md
+4b6b4479136385c63f3fe392eb9de017 *NEWS.md
 60e5c89a4ed23dbbc847d655cb6262a6 *R/closure.R
 e38bcbd3a2621ef0299c881ffe7dec9e *R/exampleGraphs.R
 00e9a309c012891fdc56376d6fed0e72 *R/gACT-internal.R
@@ -13,7 +13,7 @@ bfd86212f662c036be27778c58272cf1 *R/generatePvals.R
 c07a91efd606429ca300c2859eede993 *R/graph2latex.R
 03eb27c9b61a3f85fb020a51d614d873 *R/graphMCP.R
 8594da873c2d64a38377b8a49dfa4635 *R/graphTest.R
-66a9fcbdb45539c944da8220491d0382 *R/hgraph.R
+0874e5a8ebadd9d3b1414c381c5de1c1 *R/hgraph.R
 7570e151edb6785e2347fa52c859b626 *R/matrix2graph.R
 2832d49c6567ca55603645f109f256e0 *R/misc.R
 78f9461ac799bab9f4cf85f33050d28c *R/modifyGraphs.R
@@ -23,7 +23,7 @@ aba446b6a8cdec5468ef4108e455270e *build/vignette.rds
 619289cc3a68f0499902c9df21fa0625 *inst/AUTHORS
 02f70c2d3c139bce8c516d18d8c07475 *inst/doc/GraphicalMultiplicity.R
 317d32398d0904500ad85a7925e07d6f *inst/doc/GraphicalMultiplicity.Rmd
-0a7bb05f3aef0196bba83b40a3a8105a *inst/doc/GraphicalMultiplicity.html
+98234970e8c5ee271c1179b79843ddd2 *inst/doc/GraphicalMultiplicity.html
 cc85baefa65d622d7d09840f4d21bded *inst/doc/hGraph.R
 a17c2e99fc17741fddd582001dda1a7f *inst/doc/hGraph.Rmd
 5cb74ec1387fb46f39bfcb43f1cb084e *inst/doc/hGraph.html
@@ -44,7 +44,7 @@ ce1a673d273ea2773e1c1fd4410692e2 *man/generatePvals.Rd
 6fb87196d15904ad03db126f047b0802 *man/generateWeights.Rd
 fc739b33e9d5fb5ea197b2e547c26cb0 *man/graphMCP-class.Rd
 c511916e1bed3e697ad1b627824febf4 *man/graphTest.Rd
-632c9b38c7607a4aef2b17c41228d776 *man/hGraph.Rd
+be5dfe999c6201013141dc2227bcd589 *man/hGraph.Rd
 0fc50b709a5ae17ccf60ac1c32ab7f03 *man/joinGraphs.Rd
 b784efec8c6fb6396a9e44eeb9605b9b *man/matrix2graph.Rd
 7f97c2350634c0e6b2a6b488a93f8299 *man/parametric.test.Rd
