@@ -18,7 +18,7 @@
 #' Create multiplicity graphs using ggplot2
 #'
 #' Plots a multiplicity graph defined by user inputs.
-#' The graph can also be used with the ***gMCP*** package to evaluate a set of
+#' The graph can also be used with the gMCP package to evaluate a set of
 #' nominal p-values for the tests of the hypotheses in the graph.
 #'
 #' @param nHypotheses number of hypotheses in graph
@@ -309,7 +309,7 @@ hGraph <- function(
     #   scale_alpha(guide="none") +
     scale_fill_manual(values=palette,
                       labels=labels,
-                      guide_legend(legend.name)) +
+                      guide = guide_legend(legend.name)) +
     theme(legend.position = legend.position,
           legend.title = ggplot2::element_text(size = legend.textsize),
           legend.text = ggplot2::element_text(size = legend.textsize)) +
