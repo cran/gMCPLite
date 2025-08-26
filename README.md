@@ -2,8 +2,9 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/Merck/gMCPLite/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Merck/gMCPLite/actions/workflows/R-CMD-check.yaml)
-[![test-coverage](https://github.com/Merck/gMCPLite/workflows/test-coverage/badge.svg)](https://github.com/Merck/gMCPLite/actions)
-[![Codecov test coverage](https://codecov.io/gh/Merck/gMCPLite/branch/main/graph/badge.svg)](https://app.codecov.io/gh/Merck/gMCPLite?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/Merck/gMCPLite/graph/badge.svg)](https://app.codecov.io/gh/Merck/gMCPLite)
+[![CRAN status](https://www.r-pkg.org/badges/version/gMCPLite)](https://cran.r-project.org/package=gMCPLite)
+[![CRAN Downloads](https://cranlogs.r-pkg.org/badges/gMCPLite)](https://cran.r-project.org/package=gMCPLite)
 <!-- badges: end -->
 
 gMCPLite is a fork of gMCP for graph-based multiple comparison procedures,
@@ -14,6 +15,8 @@ with the following features:
 - Added an `hGraph()` function for ggplot2 visualizations.
   It bridges gMCP result objects and gsDesign to produce
   multiple comparison graphs and sequential graph updates.
+
+A [Shiny app](https://rinpharma.shinyapps.io/gmcp/) is also available to generate graphs of multiple comparisons and update graphs based on graphical approach.
 
 ## Installation
 

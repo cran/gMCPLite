@@ -1,6 +1,6 @@
 Package: gMCPLite
 Title: Lightweight Graph Based Multiple Comparison Procedures
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: c(
     person("Yalin", "Zhu", email = "yalin.zhu@outlook.com", role = "aut",
            comment = c(ORCID = "0000-0003-3830-8660")),
@@ -36,20 +36,21 @@ Depends: R (>= 3.6.0)
 Imports: ggplot2, graphics, grDevices, grid, MASS, methods, mvtnorm,
         stats, utils
 Suggests: covr, dplyr, gridExtra, gsDesign, gt, kableExtra, knitr,
-        multcomp, ragg, rmarkdown, scales, testthat (>= 3.0.0), tibble
+        multcomp, ragg, rmarkdown, scales, testthat (>= 3.0.0), tibble,
+        vdiffr
 Config/testthat/edition: 3
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 NeedsCompilation: yes
-Packaged: 2024-01-11 18:44:54 UTC; xiaonan4
-Author: Yalin Zhu [aut] (<https://orcid.org/0000-0003-3830-8660>),
+Packaged: 2025-08-26 04:20:35 UTC; xiaonan4
+Author: Yalin Zhu [aut] (ORCID: <https://orcid.org/0000-0003-3830-8660>),
   Yilong Zhang [aut],
   Xuan Deng [aut],
   Keaven Anderson [aut],
-  Nan Xiao [aut, cre] (<https://orcid.org/0000-0002-0250-5673>),
+  Nan Xiao [aut, cre] (ORCID: <https://orcid.org/0000-0002-0250-5673>),
   Kornelius Rohmeyer [ctb] (gMCP author),
   Florian Klinglmueller [ctb] (gMCP author),
   gMCP project contributors [cph] (gMCP package),
   Merck & Co., Inc., Rahway, NJ, USA and its affiliates [cph]
 Maintainer: Nan Xiao <nan.xiao1@merck.com>
 Repository: CRAN
-Date/Publication: 2024-01-11 19:30:02 UTC
+Date/Publication: 2025-08-26 04:40:02 UTC
